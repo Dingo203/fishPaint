@@ -14,6 +14,7 @@
 		D55940D71E7BB8740039982C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55940D51E7BB8740039982C /* LaunchScreen.storyboard */; };
 		D55940E21E7BB8740039982C /* fishPaintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55940E11E7BB8740039982C /* fishPaintTests.swift */; };
 		D55940ED1E7BB8740039982C /* fishPaintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55940EC1E7BB8740039982C /* fishPaintUITests.swift */; };
+		D55940FC1E7BBE070039982C /* fishPaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55940FB1E7BBE070039982C /* fishPaint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D55940E81E7BB8740039982C /* fishPaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishPaintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55940EC1E7BB8740039982C /* fishPaintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishPaintUITests.swift; sourceTree = "<group>"; };
 		D55940EE1E7BB8740039982C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55940FB1E7BBE070039982C /* fishPaint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fishPaint.swift; path = Class/fishPaint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D55940CB1E7BB8740039982C /* fishPaint */ = {
 			isa = PBXGroup;
 			children = (
+				D55940FA1E7BBD7F0039982C /* Class */,
 				D55940CC1E7BB8740039982C /* AppDelegate.swift */,
 				D55940CE1E7BB8740039982C /* ViewController.swift */,
 				D55940D01E7BB8740039982C /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				D55940EE1E7BB8740039982C /* Info.plist */,
 			);
 			path = fishPaintUITests;
+			sourceTree = "<group>";
+		};
+		D55940FA1E7BBD7F0039982C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D55940FB1E7BBE070039982C /* fishPaint.swift */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55940FC1E7BBE070039982C /* fishPaint.swift in Sources */,
 				D55940CF1E7BB8740039982C /* ViewController.swift in Sources */,
 				D55940CD1E7BB8740039982C /* AppDelegate.swift in Sources */,
 			);
