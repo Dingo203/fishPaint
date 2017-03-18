@@ -1,6 +1,6 @@
-<h1 align="center">fishPaint</h1>
+<h1 align="left">fishPaint</h1>
 
-<p align="center">
+<p align="left">
     <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+"/> <img src="https://img.shields.io/badge/Xcode-8.0+-blue.svg?style=flat" alt="Xcode: 8.0+"/>
     <a href="https://developer.apple.com/swift">
     <img src="https://img.shields.io/badge/language-swift%203-4BC51D.svg?style=flat" alt="Language: Swift 3" /></a>
@@ -35,7 +35,7 @@ Simply copy the contents of the 'Class' folder into your project.
 
 ## Demo Screen Shot
 
-<img src="https://github.com/Dingo203/fishPaint/raw/master/fishPaintDemo.png" style="width: 300px; height: 568px;"/>
+<img src="https://raw.githubusercontent.com/Dingo203/fishPaint/master/fishPaintDemo.png" style="width: 300px; height: 568px;"/>
 
 ## Usage
 
