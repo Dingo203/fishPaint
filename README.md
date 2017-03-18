@@ -72,7 +72,7 @@ paintView.removeLastLine()
 If you wish to clear the whole canvas, simply call the `clearCanvas` function:
 
 ```swift
-drawView.clearCanvas()
+paintView.clearCanvas()
 ```   
     
 ### Delegate

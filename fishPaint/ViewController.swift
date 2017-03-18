@@ -111,10 +111,11 @@ class ViewController: UIViewController, fishPaintViewDelegate {
     }
 
     func fishPaintIsDrawing(view: fishPaintView) {
-
+        print("during drawing")
     }
 
     func fishPaintDidFinishDrawing(view: fishPaintView) {
+        print("finish drawing")
         UIView.animate(withDuration: 0.5, animations: {
             self.undoButton.alpha = 1.0
             self.colorButton.alpha = 1.0
