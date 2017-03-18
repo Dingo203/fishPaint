@@ -35,7 +35,7 @@ Simply copy the contents of the 'Class' folder into your project.
 
 ## Demo Screen Shot
 
-<img src="https://raw.githubusercontent.com/Dingo203/fishPaint/master/fishPaintDemo.png" style="width: 300px; height: 568px;"/>
+<img src="https://raw.githubusercontent.com/Dingo203/fishPaint/master/fishPaintDemo.png" width = "300" height = "568"/>
 
 ## Usage
 
