@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author             = { "Dingo" => "477623503@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Dingo203/fishPaint.git", :tag => s.version }
-  s.source_files  = "Classes", "fishPaint/Classes/*.{h,m,swift}"
+  s.source_files  = "fishPaint/Class/*.{h,m,swift}"
   s.requires_arc = true
 
 end
